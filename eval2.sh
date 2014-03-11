@@ -1,0 +1,13 @@
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.20_0.20.out | tee result/result_QP_0.20_0.20_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.40_0.20_0.20.out | tee result/result_QP_0.40_0.20_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.60_0.20_0.20.out | tee result/result_QP_0.60_0.20_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.80_0.20_0.20.out | tee result/result_QP_0.80_0.20_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_1.00_0.20_0.20.out | tee result/result_QP_1.00_0.20_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.40_0.20.out | tee result/result_QP_0.20_0.40_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.60_0.20.out | tee result/result_QP_0.20_0.60_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.80_0.20.out | tee result/result_QP_0.20_0.80_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_1.00_0.20.out | tee result/result_QP_0.20_1.00_0.20.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.20_0.40.out | tee result/result_QP_0.20_0.20_0.40.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.20_0.60.out | tee result/result_QP_0.20_0.20_0.60.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.20_0.80.out | tee result/result_QP_0.20_0.20_0.80.eval
+trec_eval.9.0/trec_eval.exe -M1000 test-data/qrels.trec6-8.nocr result/result_QP_0.20_0.20_1.00.out | tee result/result_QP_0.20_0.20_1.00.eval
